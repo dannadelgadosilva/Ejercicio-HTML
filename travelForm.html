@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <section>
+            <form method="post" action="/">
+                    <div>
+                        <label>
+                            Full name*:<br>
+                            <input type="text" name="name" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Email address*:<br>
+                            <input type="text" name="lastname" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="tourpackage">
+                            Select Tour Package*:<br>
+                            <select name="options" id="tourpackage">
+                                <option value="Goa">Goa</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Arrival date*:<br>
+                            <input type="date" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Number of persons*:<br>
+                            <input type="number" required>
+                        </label>
+                    </div>
+                    <div>
+                        What would you want to avail?*<br>
+                        <input type="checkbox" id="avail1" name="avail1" value="Boarding">
+                        <label for="avail1">Boarding</label><br>
+                        <input type="checkbox" id="avail2" name="avail2" value="Fooding">
+                        <label for="avail2">Fooding</label><br>
+                        <input type="checkbox" id="avail3" name="avail3" value="SightSeeing">
+                        <label for="avail3">Sight seeing</label><br>
+                    </div>
+                    <div>
+                        <label>
+                            Discout Coupon code*:<br>
+                            <input type="text" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Terms and conditions*<br>
+                            <input type="radio" id="option1" name="terms" value="i agree"/>
+                            <label for="option1">I agree</label>
+                            <input type="radio" id="option2" name="terms" value="i disagree" />
+                            <label for="option2">I disagree</label>
+                        </label>
+                    </div>
+                    <button type="submit">
+                        Complete reservation
+                    </button>
+            </form>
+        </section>
+    </body>
+</html>
